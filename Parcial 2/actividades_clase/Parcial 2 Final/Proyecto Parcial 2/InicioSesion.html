@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="CSS/Estilo2.css">
+</head>
+<body>
+
+    
+
+
+    <div class="Login">
+
+        <h1 class="titulo">
+        INICIAR SESION
+        </h1>
+        <br>
+
+        <!--Esto es el formulario para iniciar sesion-->
+
+        
+        <form id="Sesion" class="Sesion">
+        
+        <label for="Correo">Correo</label>
+        <br>
+        <input type="email" name="correo" placeholder="Correo" id="correo">
+        
+        <br>
+
+        <br>
+        <label for="contraseña">Contraseña</label>
+        <br>
+        <input type="password" name="contraseña" placeholder="Contraseña" id="contraseña">
+        <br>
+
+        <br>
+        <button type="button" onclick="InicioSesion()">Iniciar Sesion</button>
+
+        <!--Esto indica si actualmente se tiene estatus de admin o no-->
+
+        <button type="button" onclick="Admin()">Soy administrador</button>
+        <label for="" id="AdminConfirmar">Es admin</label>
+        <br>
+    </form>
+    <br>
+
+    <!--Esto indica a donde ir en caso de no tener cuenta-->
+
+    <div>
+        <label for="Registrarse">No tienes cuenta?</label>
+        <br>
+        <a href="Registrarse.html">
+        <button type="button">Registrarse</button>
+        </a>
+    </div>
+
+
+    </div>
+
+<script src="JS/scriptLogin.js"></script>
+    
+</body>
+</html>

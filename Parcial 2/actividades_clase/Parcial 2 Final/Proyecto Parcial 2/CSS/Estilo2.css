@@ -1,0 +1,101 @@
+/* Esto es el estilo de la indicacion del cuadro*/
+
+h1{
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+/* Esto es el estilo que mantiene el mismo fondo que el index*/
+
+body{
+    background-color: rgb(11, 0, 41);
+    background-image: url(../Recursos/mcd_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-attachment: fixed;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+
+    display: flex;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Esto es el estilo de la foto de perfil*/
+
+.imagen-seleccionada{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.input-imagen{
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px;
+    gap: 5px
+}
+
+/* Esto es el estilo de la indicacion en el cuadro*/
+
+.titulo{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+/* Esto es el estilo del cuadro de iniciar sesion*/
+
+.Login{
+    width: 30vw;
+    height: 60vh;
+    background-color: rgb(65, 15, 39);
+    
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border-radius: 2%;
+    background-image: linear-gradient(to bottom, rgb(65, 15, 39), rgb(157, 0, 52));
+    font-weight: bold;
+    padding: 40px;
+    gap: 10px;
+}
+
+/* Esto es el estilo del cuadro para registro*/
+
+.SignUp{
+    width: 30vw;
+    height: 100%;
+    background-color: rgb(65, 15, 39);
+    
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border-radius: 2%;
+    background-image: linear-gradient(to bottom, rgb(65, 15, 39), rgb(157, 0, 52));
+    font-weight: bold;
+    padding: 40px;
+    gap: 10px;
+}
+
+/* Esto es el estilo para las entradas de los formularios y sus botones*/
+
+input{
+    border-radius: 5px;
+    border: 0px;
+    width: 100%;
+    padding: 2px;
+    
+}
+button{
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px;
+    gap: 5px
+
+}

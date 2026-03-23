@@ -1,0 +1,93 @@
+[
+    {
+        "img": "Recursos/Encrusted_Anchor_Sprite_MCD.webp",
+        "name": "Ancla Encrustada",
+        "Description": "Esta ancla incrustada se perdió en el mar hace mucho tiempo y se ha vuelto áspera y corrosiva durante sus años de abandono.",
+        "Location": "Monumento Abisal"
+    },
+    {
+        "img": "Recursos/Bone_Cudgel_(MCD).webp",
+        "name": "Garrote de hueso",
+        "Description": "El garrote de hueso es lo suficientemente antiguo como para ser considerado un tesoro ancestral, pero sigue siendo amenazador incluso para los estándares modernos.",
+        "Location": "Valle de almas"
+    },
+    {
+        "img": "Recursos/The_Beginning_and_The_End_(MCD).webp",
+        "name": "El principio y el final",
+        "Description": "Forjadas por los miembros de una expedicion fallida, estas dagas traen una historia obscura.",
+        "Location": "Ciudadela rota"
+    },
+    {
+        "img":"Recursos/Swift_Striker_(MCD).webp",
+        "name":"Apuñalador veloz",
+        "Description":"Un arma para los que saben que el camino a la victoria es entre las sombras",
+        "Location":"End silvestre"
+    },
+    {
+        "img":"Recursos/Sponge_Striker_(MCD).webp",
+        "name":"Golpeador esponja",
+        "Description":"Puede parecer palido y muerto, pero absorbe el daño recibido y lo libera en golpes poderosos",
+        "Location":"Ascenso coral"
+    },
+    {
+        "img":"Recursos/Gilded_Glory_(MCD).webp",
+        "name":"Gloria dorada",
+        "Description":"Incluso la muerte misma se detiene a ver el brillo de esta armadura",
+        "Location":"Templo de las ventiscas, Gran muralla"
+    },
+    {
+        "img":"Recursos/Cauldron_Armor_(MCD).webp",
+        "name":"Armadura de caldero",
+        "Description":"Fue creada con camuflaje en mente, pero lo que le falta en sigilo lo compensa con su encanto burbujeante",
+        "Location":"Evento, La torre"
+    },
+    {
+        "img":"Recursos/Wither_Armor_(MCD).webp",
+        "name":"Armadura de wither",
+        "Description":"Hecha de los huesos de oponentes muertos, esta armadura espanta a los enemigos de su usuario",
+        "Location":"Templo del desierto, Pinaculo de obsidiana"
+    },
+    {
+        "img":"Recursos/The_Troubadour_(MCD).webp",
+        "name":"El trobador",
+        "Description":"Por que dejar a tus fanaticos esperando, cuando puedes deslumbrarlos con esta vestimenta inspiradora",
+        "Location":"La fortaleza"
+    },
+    {
+        "img":"Recursos/Sweet_Tooth_(MCD).webp",
+        "name":"Dulce diente",
+        "Description":"Puede parecer pan comido en los ojos del oponente, pero esta armadura es sorprendentemente resistente, probablemente por el fondant",
+        "Location":"Evento, La torre"
+    },
+    {
+        "img":"Recursos/Corrupted_Crossbow_(MCD).webp",
+        "name":"Ballesta corrupta",
+        "Description":"Esta ballesta oculta un poder malevolo, digno de ladrones y guerreros agiles",
+        "Location":"La torre, Desafio diario"
+    },
+    {
+        "img":"Recursos/Soul_Hunter_Crossbow_(MCD).webp",
+        "name":"Ballesta del cazador de almas",
+        "Description":"Esta ballesta, fabricada en una forja embrujada, prospera en la prescencia de almas",
+        "Location":"La torre, Desafio diario"
+    },
+    {
+        "img":"Recursos/MCD_Webbed_Bow.png",
+        "name":"Arco de telaraña",
+        "Description":"Hecho de las telarañas de los aracnidos mas fuertes, puede sacarte de una situacion pegajosa",
+        "Location":"Evento, La torre"
+    },
+    {
+        "img":"Recursos/MCD_Burst_Gale_Bow.png",
+        "name":"Arco de ventisca",
+        "Description":"Un arco enfundido con el poder del viento poniente, libera su fuerza en un solo impulso",
+        "Location":"Templo de las ventiscas, Gran muralla"
+    },
+    {
+        "img":"Recursos/Bubble_Burster_(MCD).webp",
+        "name":"Reventador de burbujas",
+        "Description":"Este arco creara una reaccion en cadena, asegurando un estallido en la cara del oponente",
+        "Location":"Ascenso coral"
+    }
+
+]

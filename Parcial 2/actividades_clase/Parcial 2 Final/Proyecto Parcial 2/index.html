@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Dungeons Items</title>
+    <link rel="stylesheet" href="CSS/Estilo.css">  
+</head>
+<body>
+
+    <!--Esto es la barra superior-->
+
+     <nav>
+        <ul>
+            <a href="InicioSesion.html" style="text-decoration: none;">
+            <li>SESION</li>
+            </a>
+            <li>INICIO</li>
+            <li>CONTACTO</li>
+        </ul>
+    </nav>
+
+    <!--Esto es el titulo y subtitulo-->
+
+    <h1>
+        <img src="Recursos/Minecraft_Dungeons_logo.webp">
+    </h1>
+    <h2>
+        COMPENDIUM
+    </h2>
+
+    <!--Esto es el contenido principal-->
+
+    <div class="Contenido">
+        <br>
+
+        <!--Esto es donde se sibe el JSON de contenido-->
+        <div class="SubirContenido" id="SubirContenido">
+
+            <Label>Subir Contenido</Label>
+            <br>
+            <input type="file" name="JSON" id="SubirJSON" class="SubirJSON">
+        </div>
+        <br>
+
+    <h1 id="ListaDeArmas">LISTA DE ARMAS</h1>
+    <br>
+
+    <!--Esto es el contenedor de las tarjetas-->
+    <div class="contenedor" id="contenedor"></div>
+
+    </div>
+
+    <script src="JS/scriptContent.js"></script>
+    
+</body>
+</html>

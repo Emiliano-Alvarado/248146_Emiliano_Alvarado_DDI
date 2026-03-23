@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/Estilo2.css">
+</head>
+<body>
+    <div class="SignUp">
+
+        <h1 class="titulo">
+        REGISTRARSE
+        </h1>
+        <br>
+
+        <!--Esto es donde se pone la foto de perfil-->
+        <div>
+        <label>Imagen de perfil</label>
+        </div>
+        <br>
+        <img src="Recursos/blank profile.webp" id="imagen-seleccionada" class="imagen-seleccionada">
+        <input type="file" name="imagen" id="input-imagen" class="input-imagen">
+
+        <!--Esto es el formulario de registro-->
+        
+
+        <form id="Registro" class="Registro">
+
+        <br>
+        <label for="Nombre">Nombre</label>
+        <input type="text" name="nombre" placeholder="Nombre">
+        <br>
+        
+        <br>
+        <label for="Apellido">Apellido</label>
+        <input type="text" name="apellido" placeholder="Apellido">
+        <br>
+
+        <br>
+        <label for="Correo">Correo</label>
+        <input type="email" name="correo" placeholder="Correo">
+        <br>
+
+        <br>
+        <label for="contraseña">Contraseña</label>
+        <input type="password" name="contraseña" placeholder="Contraseña">
+        <br>
+
+        <br>
+        <label for="Comfirmar">Comfirmar</label>
+        <input type="password" name="comfirmar" placeholder="Comfirmar">
+        <br>
+
+        <br>
+        <button type="button" onclick="Registrarse()">Guardar</button>
+        <br>
+
+        
+
+    </form>
+    <br>
+
+    <!--Esto es una etiqueta para indicar a donde ir en caso de ya tener cuenta-->
+    <div>
+    <label for="Registrarse">Ya tienes cuenta?</label>
+        <br> 
+    <a href="InicioSesion.html">
+    <button type="button">Iniciar Sesion</button>
+    </a>
+    </div>
+
+
+
+    </div>
+
+    <script src="JS/scriptSignUp.js"></script>
+    
+</body>
+</html>
