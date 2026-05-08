@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint App</title>
+    <link rel="stylesheet" href="Css/estilo.css">
+</head>
+
+<body>
+    
+    <div id="Programa" class="Programa">
+        
+        <!-- Hoja -->
+        <div class="HojaDibujo">
+            <canvas id="lienzo" class="lienzo" width="1500" height="800"></canvas>
+        </div>
+
+        <!-- Controles -->
+        <div class="controles">
+            <h1>HERRAMIENTAS</h1>
+
+            <!-- Herramientas A -->
+            <div class="ToolsA">
+                <button id="btn_pincel" class="herramienta" title="Pincel">
+                    <img src="rec/pincel.png" width="20">
+                </button>
+
+                <button id="btn_linea" class="herramienta" title="Línea">
+                    <img src="rec/linea.png" width="20">
+                </button>
+
+                <button id="btn_cuadrado" class="herramienta" title="Cuadrado">
+                    <img src="rec/square.png" width="20">
+                </button>
+
+                <button id="btn_circulo" class="herramienta" title="Círculo">
+                    <img src="rec/circle.png" width="20">
+                </button>
+
+                <button id="btn_hexagono" class="herramienta" title="Triángulo">
+                    <img src="rec/hexagon.png" width="20">
+                </button>
+
+                <button id="btn_sticker" class="herramienta" title="Sticker">
+                    <img src="rec/insertar-icono-de-imagen.png" width="20">
+                </button>
+
+                <button id="btn_borrador" class="herramienta" title="Borrador">
+                    <img src="rec/eraser.png" width="20">
+                </button>
+            </div>
+
+            <!-- Subir sticker -->
+            <div>
+                <input type="file" id="input_imagen" accept="image/*">
+            </div>
+
+            <!-- Herramientas B -->
+            <div class="ToolsB">
+
+                <!-- Color -->
+                <input type="color" id="color_linea" class="herramienta">
+                <input type="color" id="color_relleno" class="herramienta">
+
+                <!-- Grosor -->
+                <input type="range" id="grosor" min="1" max="50" value="5" class="herramienta">
+
+                <!-- Figuras config -->
+                <label>
+                    <input type="radio" name="modo" value="relleno" checked>
+                    Relleno
+                </label>
+
+                <label>
+                    <input type="radio" name="modo" value="borde">
+                    Borde
+                </label>
+
+                <!-- Filtros -->
+                <button id="btn_bn" class="herramienta">Blanco y negro</button>
+                <button id="btn_rojo" class="herramienta">Escala rojos</button>
+                <button id="btn_verde" class="herramienta">Escala verdes</button>
+                <button id="btn_azul" class="herramienta">Escala azul</button>
+                <button id="btn_sepia" class="herramienta">Sepia</button>
+
+                <!-- Acciones -->
+                <button id="btn_limpiar" class="herramienta">Limpiar</button>
+                <button id="btn_guardar" class="herramienta">Guardar</button>
+                <button id="btn_deshacer" class="herramienta">Deshacer</button>
+                <button id="btn_rehacer" class="herramienta">Rehacer</button>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script type="module" src="Js/script.js"></script>
+</html>

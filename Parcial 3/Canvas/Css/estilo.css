@@ -1,0 +1,234 @@
+
+/* Universal */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del body */
+body{
+    background-color: rgb(11, 0, 41);
+    background-image: url(../rec/canvas_fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100vh;
+    padding: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo del contenedor del programa */
+.Programa{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+
+    width: 100%;
+    max-width: 1600px;
+}
+
+/* Estilo del lienzo */
+.HojaDibujo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    overflow: auto;
+}
+
+.lienzo{
+    background-color: white;
+
+    border-radius: 10px;
+    border: 3px solid rgb(0, 0, 0);
+
+    box-shadow:
+        0px 10px 25px rgba(0,0,0,0.5),
+        0px 0px 10px rgba(255,255,255,0.1);
+
+    max-width: 100%;
+    height: auto;
+
+    touch-action: none;
+}
+
+/* Estilo de los controles */
+.controles{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+
+    width: 90%;
+    max-width: 1400px;
+
+    padding: 20px;
+
+    background-color: rgba(30, 33, 74, 0.95);
+
+    color: rgb(200, 220, 240);
+
+    border-radius: 20px;
+
+    backdrop-filter: blur(5px);
+
+    box-shadow:
+        0px 5px 20px rgba(0,0,0,0.4);
+}
+
+.controles h1{
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+/* Estilo de las secciones de herramientas */
+.ToolsA,
+.ToolsB{
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    padding: 15px;
+
+    background-color: rgb(5, 2, 20);
+
+    border-radius: 15px;
+}
+
+/* Estilo de los botones */
+.herramienta{
+    border: none;
+
+    border-radius: 8px;
+
+    background-color: rgb(109, 134, 156);
+
+    color: white;
+
+    padding: 10px;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.2s ease,
+        background-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.herramienta:hover{
+    transform: translateY(-5px);
+
+    background-color: rgb(255, 255, 255);
+
+    color: black;
+
+    box-shadow:
+        0px 5px 15px rgba(255,255,255,0.3);
+}
+
+.herramienta:active{
+    transform: scale(0.95);
+}
+
+/* Iconos en las herramientas */
+.herramienta img{
+    width: 20px;
+    height: 20px;
+}
+
+/* Estilo de los inputs */
+input[type="color"]{
+    width: 45px;
+    height: 45px;
+
+    border: none;
+    border-radius: 8px;
+
+    overflow: hidden;
+
+    cursor: pointer;
+}
+
+input[type="range"]{
+    width: 180px;
+    cursor: pointer;
+}
+
+input[type="file"]{
+    color: white;
+}
+
+/* Estilo de las etiquetas*/
+label{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    font-size: 14px;
+}
+
+/* Esto mantiene el estilo de todo consistente para mobiles */
+@media screen and (max-width: 768px){
+
+    body{
+        padding: 10px;
+    }
+
+    .Programa{
+        gap: 15px;
+    }
+
+    .lienzo{
+        width: 100%;
+    }
+
+    .controles{
+        width: 100%;
+        padding: 15px;
+    }
+
+    .controles h1{
+        font-size: 20px;
+    }
+
+    .ToolsA,
+    .ToolsB{
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .herramienta{
+        min-width: 50px;
+        min-height: 45px;
+        padding: 8px;
+    }
+
+    input[type="range"]{
+        width: 100%;
+    }
+}
+
